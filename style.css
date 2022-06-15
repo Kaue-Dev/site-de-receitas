@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body {
+    background-color: #161616;
+    color: #FFFFFF;
+    font-family: Kalam;
+}
+
+.title {
+    padding-top: 64px;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+button {
+    font-family: Kalam;
+    background: transparent;
+    outline: 2px solid #FA7D09;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px 24px;
+    font-size: 18px;
+}
+
+.navegation {
+    padding-top: 32px;
+    text-align: center;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
