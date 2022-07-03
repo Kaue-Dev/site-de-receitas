@@ -2,22 +2,26 @@
 <html lang="pt-br">
 
 <head>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#000000" fill-opacity="0.3" d="M0,128L30,154.7C60,181,120,235,180,218.7C240,203,300,117,360,90.7C420,64,480,96,540,117.3C600,139,660,149,720,128C780,107,840,53,900,80C960,107,1020,213,1080,229.3C1140,245,1200,171,1260,144C1320,117,1380,139,1410,149.3L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+    </svg>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>EASY RECIPES</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
     <header>
         <h1 class="title">Easy Recipes</h1>
             <div class="search">
-               <input type="text" class="search-bar" placeholder="O que está procurando?">
-               <button type="submit" class="search-button"></button>
+               <input type="text" class="search-bar" placeholder="Pesquise aqui...">
+               <i data-feather="search" class="search-icon"></i>
             </div>
     </header>
-
+    
     <nav class="navegation">
         <ul>
             <button>
@@ -47,13 +51,13 @@
         </ul>
     </nav>
 
-    <h1 class="title">Populares</h1> <hr>
+    <h1 class="title populares">Populares</h1> <hr>
     <div class="favorites">
         <div>
             <h2>Steak Tartare</h2>
             <img src="./src/images/steak-tartare.jpg" alt="Steak Tartare">
         </div>
-        <div class="paella">
+        <div>
             <h2>Paella de frutos do mar</h2>
             <img src="./src/images/paella.jpg" alt="Paella">
         </div>
@@ -61,22 +65,25 @@
             <h2>Yakisoba</h2>
             <img src="./src/images/yakisoba.jpg" alt="Yakisoba">
         </div>
-        <div>
+        <div class="pizza">
             <h2>Pizza Italiana</h2>
             <img src="./src/images/pizza.png" alt="Pizza">
         </div>
-        <div>
+        <div class="nachos">
             <h2>Nachos com chilli</h2>
             <img src="./src/images/nachos.jpg" alt="Nachos">
         </div>
         <div class="hamburguer">
             <h2>Hambúrguer</h2>
             <img src="./src/images/hamburguer.png" alt="Hambúrguer">
-        </div>
+        </div> 
     </div> <hr>
 
     <script>
         feather.replace()
     </script>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"> 
+        <path fill="#000000" fill-opacity="0.3" d="M0,96L20,112C40,128,80,160,120,144C160,128,200,64,240,74.7C280,85,320,171,360,202.7C400,235,440,213,480,192C520,171,560,149,600,160C640,171,680,213,720,197.3C760,181,800,107,840,69.3C880,32,920,32,960,64C1000,96,1040,160,1080,186.7C1120,213,1160,203,1200,208C1240,213,1280,235,1320,213.3C1360,192,1400,128,1420,96L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
+    </svg> 
 </body>
 </html>
