@@ -6,6 +6,13 @@ body {
     font-family: Kalam;
 }
 
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+
 .title {
     padding-top: 64px;
     text-align: center;
@@ -15,37 +22,36 @@ body {
 }
 
 .search {
+    padding-top: 32px;
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content: center;
-    display: flex;
-  }
+}
   
-  .search-bar {
+.search-bar {
     background-color: transparent;
-    width: 45%;
-    border: 2px solid #FA7D09;
+    width: 50%;
+    border: 2px solid #AE431E;
     padding: 5px;
     height: 20px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
     outline: none;
     color: #FFFFFF;
-  }
-  
-  .search-button {
-    border: 2px solid #FA7D09;
-    background: #FA7D09;
-    text-align: center;
-    color: #FFFFFF;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
+}
+
+.search-icon {
+    position: relative;
+    right: 35px;
+    color: #AE431E;
+    position: relative;
+}
+
 
 button {
     font-family: Kalam;
     background: transparent;
-    outline: 2px solid #FA7D09;
+    outline: 2px solid #AE431E;
     border: 0px;
     border-radius: 3px;
     padding: 3px 24px;
@@ -53,7 +59,9 @@ button {
 }
 
 .navegation {
-    padding-top: 32px;
+    position: relative;
+    right: 20px;
+    padding-top: 64px;
     text-align: center;
 }
 
@@ -62,13 +70,28 @@ a {
     text-decoration: none;
 }
 
+.populares {
+    padding-top: 192px;
+}
+
+hr {
+    margin-top: 32px;
+    border: 1px solid;
+    border-color: #AE431E;
+}
+
 .favorites img {
     border: 1px solid #FFFFFF;
     height: 256px;
     width: 256px;
 }
 
+.pizza, .nachos, .hamburguer {
+    padding-top: 64px;
+}
+
 .favorites {
+    padding-top: 32px;
     display: grid;
     grid-template-columns: 400px 400px 400px;
     text-align: center;
