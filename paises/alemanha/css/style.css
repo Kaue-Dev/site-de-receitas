@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body {
+    background-color: #161616;
+    color: #FFFFFF;
+    font-family: Kalam;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.recipe-name, .como-fazer {
+    font-size: 24px;
+    margin: 100px 0 32px 163px;
+}
+.recipe-name-2 {
+    font-size: 24px;
+    margin: 100px 0 32px 115\px;
+}
+
+.descricao {
+    display: inline-grid;
+    grid-template-rows: 150px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    margin: 0 0 25px 83px;
+    border-radius: 8px;
+}
+
+.historia {
+    font-size: 20px;
+    margin: 0 214px 0 600px;
+    word-break: break-all;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 32px 0 0 163px;
+}
+
+details {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.ingredientes {
+    font-size: 19px;
+    margin-left: 50px;
+}
+
+summary {
+    color: #AE431E;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+li {
+    cursor: default;
+    margin-top: 12px;
+}
+ol {
+    cursor: default;
+}
+
+.passo-2, .passo-4, .passo-5 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+hr {
+    border: 1px solid #AE431E;
+}
+
+.a {
+    margin-top: 200px;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;               
+}
+body::-webkit-scrollbar-track {
+    background: #161616;        
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #AE431E;    
+    border: 1px solid #AE431E;  
+} /* Scrollbar */
+
+
+
+
